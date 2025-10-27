@@ -32,9 +32,16 @@
 ################# AUTOMATED ######################################
 
 🗂 Backup
+- wget https://github.com/redhatmurali/ChangeDetection/blob/main/backup-changedetection.sh
 - sudo chmod +x /usr/local/bin/backup-changedetection.sh
 - sudo backup-changedetection.sh
 
-
-
 🔄 Restore
+
+- sudo chmod +x /usr/local/bin/restore-changedetection.sh
+- sudo restore-changedetection.sh /var/backups/changedetection-backup-20250101-1030.tar.gz
+
+⭐ Optional: Automated Daily Backups (cron)
+
+- sudo crontab -e
+- 30 2 * * * /usr/local/bin/backup-changedetection.sh >/dev/null 2>&1
