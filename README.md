@@ -32,8 +32,8 @@
 ################# AUTOMATED ######################################
 🗂 Backup
 
-sudo chmod +x /usr/local/bin/backup-changedetection.sh
-sudo backup-changedetection.sh
+- sudo chmod +x /usr/local/bin/backup-changedetection.sh
+- sudo backup-changedetection.sh
 
 
 
