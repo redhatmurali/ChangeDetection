@@ -1,10 +1,10 @@
-🧰 What the script installs
+### What the Script Installs
 
-[Creates a dedicated user (changedetection) for security
-Installs Python + virtual environment tools
-Downloads and installs ChangeDetection.io in /opt/changedetection
-Creates a data storage folder at /var/lib/changedetection
-Sets up and enables a systemd service so it runs automatically at boot
-Exposes the web interface on port 5000 (default)]
+- Creates a dedicated system user named `changedetection` for security isolation.
+- Installs Python and virtual environment tools required to run the application.
+- Downloads and installs ChangeDetection.io into the directory `/opt/changedetection`.
+- Creates a persistent data storage directory at `/var/lib/changedetection`.
+- Sets up a systemd service so the application runs automatically at system startup.
+- Configures the web interface to run and listen on port `5000` by default.
 
-(http://localhost:5000)
+**Web UI:** http://localhost:5000
