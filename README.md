@@ -27,3 +27,14 @@
 - sudo chown -R changedetection:changedetection /var/lib/changedetection
 - Start the service again:
 - sudo systemctl start changedetection.service
+
+
+################# AUTOMATED ######################################
+🗂 Backup
+
+sudo chmod +x /usr/local/bin/backup-changedetection.sh
+sudo backup-changedetection.sh
+
+
+
+🔄 Restore
