@@ -45,3 +45,8 @@
 
 - sudo crontab -e
 - 30 2 * * * /usr/local/bin/backup-changedetection.sh >/dev/null 2>&1
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+- sudo vi /usr/local/bin/restore-changedetection.sh
+- sudo vi /usr/local/bin/backup-changedetection.sh
+
